@@ -47,4 +47,7 @@ window.addEventListener('DOMContentLoaded', event => {
         elements: '#portfolio a.portfolio-box'
     });
 
+    // Add datetime inside footer section
+    let today = new Date()
+    document.getElementById("datetime").innerHTML = today.getFullYear();
 });
